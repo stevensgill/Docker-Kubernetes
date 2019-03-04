@@ -17,3 +17,6 @@ Public Docker images: https://hub.docker.com
 1. run `docker build .`
 2. The last line provides the build ID: `Successfully built b8d7b93b77bb`
 3. run `docker run -p 8080:80 b8d7b93b77bb`
+
+**Continuous Integration**
+https://travis-ci.com/stevensgill/Docker-Kubernetes/requests?requestId=182192544
