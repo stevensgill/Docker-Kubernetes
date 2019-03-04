@@ -10,3 +10,6 @@ Public Docker images: https://hub.docker.com
 1. CD /simpleweb
 2. docker run -p 8080:8080 stevegill/simpleweb
 
+**Build the app/tests using docker-compose**
+- docker-compose up --build
+
