@@ -36,3 +36,6 @@ Get Status:
 - cd into /simplek8s
 - kubectl get pods
 - kubectl get services
+
+Accessing Pods/Services in Kubernetes Dev
+- minikube ip
