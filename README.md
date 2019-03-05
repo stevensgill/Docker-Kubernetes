@@ -20,3 +20,17 @@ Public Docker images: https://hub.docker.com
 
 **Continuous Integration**
 https://travis-ci.com/stevensgill/Docker-Kubernetes/requests?requestId=182192544
+
+**Kubernetes**
+/simplek8s
+Configurations files:
+- client-node-ports.yaml
+- client-pod.yaml
+
+Apply configurations:
+- kubectl apply -f client-pod.yaml
+- kubectl apply -f client-node-ports.yaml
+
+Get Status:
+- kubectl get pods
+- kubectl get services
